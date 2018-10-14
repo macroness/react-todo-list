@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TodoItem from './TodoItem';
 
 class TodoItemList extends Component {
 	render() {
@@ -6,7 +7,9 @@ class TodoItemList extends Component {
 
 		return (
 			<div>
-
+				<TodoItem text="1"/>
+				<TodoItem text="2"/>
+				<TodoItem text="3"/>
 			</div>
 		);
 	}
